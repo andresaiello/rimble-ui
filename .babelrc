@@ -7,14 +7,15 @@
     [
       "babel-plugin-styled-components",
       {
-        "ssr": true,
+        "ssr": false,
         "minify": true,
         "transpileTemplateLiterals": true,
         "pure": true,
-        "displayName": true,
+        "displayName": false,
         "preprocess": false
       }
     ],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
     "inline-react-svg"
   ]
 }
