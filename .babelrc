@@ -15,7 +15,6 @@
         "preprocess": false
       }
     ],
-    ["@babel/plugin-proposal-class-properties", { "loose": true }],
     "inline-react-svg"
   ]
 }
