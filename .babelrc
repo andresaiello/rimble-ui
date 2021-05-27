@@ -4,7 +4,17 @@
     ["@babel/preset-env", { "modules": false }]
   ],
   "plugins": [
-    ["babel-plugin-styled-components", { "pure": true }],
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "minify": true,
+        "transpileTemplateLiterals": true,
+        "pure": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
     ["@babel/plugin-proposal-class-properties", { "loose": true }],
     "inline-react-svg"
   ]
